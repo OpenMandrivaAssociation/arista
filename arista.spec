@@ -4,7 +4,7 @@
 Summary:	An easy to use multimedia transcoder for the GNOME Desktop
 Name:		arista
 Version:	0.9.3
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	LGPLv2+
 Group:		Video
 Url:		http://programmer-art.org/projects/arista-transcoder
@@ -13,10 +13,8 @@ BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 BuildArch:      noarch
 BuildRequires:	python-devel
 Requires:	python-dbus
-Requires:	python-cairo
-Requires:	python-gobject
 Requires:	pygtk2.0
-Requires:	python-gconf
+Requires:	gnome-python-gconf
 Requires:	python-gstreamer
 Requires:	gstreamer0.10-ffmpeg
 Requires:	gstreamer0.10-plugins-base
