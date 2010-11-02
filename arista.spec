@@ -4,7 +4,7 @@
 Summary:	An easy to use multimedia transcoder for the GNOME Desktop
 Name:		arista
 Version:	0.9.5
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	LGPLv2+
 Group:		Video
 Url:		http://programmer-art.org/projects/arista-transcoder
