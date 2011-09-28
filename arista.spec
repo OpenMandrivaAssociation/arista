@@ -3,8 +3,8 @@
 
 Summary:	An easy to use multimedia transcoder for the GNOME Desktop
 Name:		arista
-Version:	0.9.5
-Release:	%mkrel 2
+Version:	0.9.7
+Release:	%mkrel 1
 License:	LGPLv2+
 Group:		Video
 Url:		http://programmer-art.org/projects/arista-transcoder
@@ -39,14 +39,14 @@ choose a file to save to and go.
 rm -rf %{buildroot}
 %{__python} setup.py install --root %{buildroot}
 
-rm -f %buildroot%{_datadir}/locale/templates/arista.pot %buildroot%_prefix/lib/nautilus/extensions-2.0/python/arista-nautilus.py
+rm -f %{buildroot}%{_datadir}/locale/templates/arista.pot %{buildroot}%{_prefix}/lib/nautilus/extensions-2.0/python/arista-nautilus.py
 
-%find_lang %name
+%find_lang %{name}
 
 %clean
 rm -rf %{buildroot}
 
-%files -f %name.lang
+%files -f %{name}.lang
 %defattr(-,root,root,-)
 %doc AUTHORS LICENSE
 %{_bindir}/%{name}*
@@ -54,3 +54,4 @@ rm -rf %{buildroot}
 %{py_puresitedir}/%{name}
 %{_datadir}/applications/%{name}.desktop
 %{_datadir}/%{name}
+%{_datadir}/nautilus-python/extensions/arista-nautilus.py
