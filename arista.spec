@@ -55,3 +55,31 @@ rm -rf %{buildroot}
 %{_datadir}/applications/%{name}.desktop
 %{_datadir}/%{name}
 %{_datadir}/nautilus-python/extensions/arista-nautilus.py
+
+
+%changelog
+* Wed Sep 28 2011 Andrey Bondrov <abondrov@mandriva.org> 0.9.7-1mdv2012.0
++ Revision: 701732
+- New version: 0.9.7
+
+* Tue Nov 02 2010 Michael Scherer <misc@mandriva.org> 0.9.5-2mdv2011.0
++ Revision: 592381
+- rebuild for python 2.7
+
+* Mon Oct 04 2010 Funda Wang <fwang@mandriva.org> 0.9.5-1mdv2011.0
++ Revision: 582961
+- New version 0.9.5
+
+* Thu Dec 03 2009 Jérôme Brenier <incubusss@mandriva.org> 0.9.3-3mdv2010.1
++ Revision: 472992
++ rebuild (emptylog)
+
+* Thu Dec 03 2009 Jérôme Brenier <incubusss@mandriva.org> 0.9.3-2mdv2010.1
++ Revision: 472924
+- fix Requires
+
+* Wed Dec 02 2009 Jérôme Brenier <incubusss@mandriva.org> 0.9.3-1mdv2010.1
++ Revision: 472625
+- add specfile and source
+- Created package structure for arista.
+
