@@ -15,7 +15,7 @@ BuildArch:      noarch
 BuildRequires:	python2-devel
 Requires:	python-dbus
 Requires:	pygtk2.0
-Requires:	gnome-python-gconf
+Requires:	gnome-python2-gconf
 Requires:	gstreamer0.10-python
 Requires:	gstreamer0.10-ffmpeg
 Requires:	gstreamer0.10-plugins-base
