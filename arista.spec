@@ -7,7 +7,7 @@ Version:	0.9.7
 Release:	2
 License:	LGPLv2+
 Group:		Video
-Url:		http://programmer-art.org/projects/arista-transcoder
+Url:		https://programmer-art.org/projects/arista-transcoder
 Source:		http://programmer-art.org/media/releases/arista-transcoder/%{name}-%{version}.tar.gz
 
 BuildArch:      noarch
